@@ -8,7 +8,7 @@ This repository provides terraform script to demo
 
 NOTE: Before to start, be sure that you understand the terraform files and provide the following requirements.
 
-# Virtual Cloud Networking Topology
+# TOPOLOGY
 
 ![Virtual Cloud Networking Topology](vcn-demo.png)
 
