@@ -14,7 +14,9 @@ For each public cloud provider, terraform scripts will :
 
 The terraform scripts will also create and configure a GSLB service in the AVI controller in order to access to the multicloud web application.
 
-NOTE: Before to start, be sure that you understand the terraform files.
+NOTES: 
+- Before to start, be sure that you understand the terraform files
+- The AVI controller can be on-prem or SaaS
 
 # Topology
 
@@ -22,7 +24,11 @@ NOTE: Before to start, be sure that you understand the terraform files.
 
 # Requirements
 	
-1- Create a Service Account on AWS, Azure and GCP
+1- Create a Service Account on AWS, Azure and GCP:
+
+	On AWS: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html
+	On Azure: https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal
+	On GCP:https://cloud.google.com/iam/docs/creating-managing-service-accounts
 	
 2- Create a "terraform.tfvars" to specify all required credentials (AWS, Azure, GCP and AVI). Here is an example:
 
@@ -45,10 +51,17 @@ NOTE: Before to start, be sure that you understand the terraform files.
 	avi_username="username"
 	avi_password="password"
 	
+3- AVI controller requirements:
+
+	To understand how GSLB works: https://avinetworks.com/docs/20.1/avi-gslb-overview/ 
+	To configure a GSLB site: https://avinetworks.com/docs/20.1/avi-gslb-site-configuration-and-operations/ 
 	
 # Execution
 
-To setup demo, execute the "tfapply.sh" script (again: be sure that you understand the terraform files and provide the requirements)
+To setup the demo, execute the "tfapply.sh" script.
+All public IP addresses will be provided.
+
+By default, the FQDN "http://multicloud.ovn.ca/" will be created to access to the multicloud web application.
 
 # Destroy
 
