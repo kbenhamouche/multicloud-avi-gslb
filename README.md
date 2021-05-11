@@ -8,21 +8,21 @@ This repository provides terraform script to demo
 
 NOTE: Before to start, be sure that you understand the terraform files and provide the following requirements.
 
-# TOPOLOGY
+# Topology
 
 ![Virtual Cloud Networking Topology](vcn-demo.png)
 
-# REQUIREMENTS
+# Requirements
 
 ----- GENERAL -----
 
 	1- Use the "terraform.tfvars" to specify all required credentials
 	
-# EXECUTION
+# Execution
 
 To setup demo, execute the "tfapply.sh" script (again: be sure that you understand the terraform files and provide the requirements)
 
-# DESTROY
+# Destroy
 
 Execute the "tfdestroy.sh" script in order to destroy the demo environment.
 
