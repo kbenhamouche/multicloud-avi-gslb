@@ -22,9 +22,10 @@ NOTE: Before to start, be sure that you understand the terraform files.
 
 # Requirements
 	
-	1- Create a Service Account on AWS, Azure and GCP
+1- Create a Service Account on AWS, Azure and GCP
 	
-	2- Create a "terraform.tfvars" to specify all required credentials (AWS, Azure, GCP and AVI). Here is an example:
+2- Create a "terraform.tfvars" to specify all required credentials (AWS, Azure, GCP and AVI). Here is an example:
+
 	# AVI Credentials
 	avi_username = "xxxxx"
 	avi_password = "xxxxxx"
