@@ -26,7 +26,7 @@ NOTES:
 	
 1- Create a Service Account on AWS, Azure and GCP:
 
-	On AWS: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html
+	On AWS: [https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
 	On Azure: https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal
 	On GCP:https://cloud.google.com/iam/docs/creating-managing-service-accounts
 	
