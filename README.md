@@ -1,4 +1,4 @@
-# Multi-Cloud Solution with AVI GSLB Services
+# Multi-Cloud Solution with GSLB Services on NSX Advanced Load Balancer (AVI Networks)
 
 This example is for DEMO purpose ONLY.
 
