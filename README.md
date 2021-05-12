@@ -53,9 +53,8 @@ NOTES:
 	
 3- AVI controller requirements:
 
-	To understand how GSLB works: https://avinetworks.com/docs/20.1/avi-gslb-overview/ 
-	
-	To configure a GSLB site: https://avinetworks.com/docs/20.1/avi-gslb-site-configuration-and-operations/ 
+- To understand how GSLB works: https://avinetworks.com/docs/20.1/avi-gslb-overview/ 
+- To configure a GSLB site: https://avinetworks.com/docs/20.1/avi-gslb-site-configuration-and-operations/ 
 	
 # Execution
 
