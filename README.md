@@ -27,8 +27,8 @@ NOTES:
 1- Create a Service Account on AWS, Azure and GCP:
 
 For AWS: [How to create a role for services](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
-For Azure: [How to create a Service Principal] (https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
-For GCP: [How to create a Service Account] (https://cloud.google.com/iam/docs/creating-managing-service-accounts)
+For Azure: (https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
+For GCP: (https://cloud.google.com/iam/docs/creating-managing-service-accounts)
 	
 2- Create a "terraform.tfvars" to specify all required credentials (AWS, Azure, GCP and AVI). Here is an example:
 
