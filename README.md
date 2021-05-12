@@ -6,10 +6,10 @@ This repository provides terraform scripts to configure and demo the AVI Global 
 The web application is based on Linux Ubuntu 18.04 and the latter is deployed on AWS, Azure and Google Cloud.
 
 For each public cloud provider, terraform scripts will :
-- Create a Virtual Private Cloud or Virtual Network and Subnet 
-- Create a Security Groups and Firewall Rules
+- Create a VPC or VNET with subnet 
+- Create a Network Security Group and Firewall Rules
 - Deploy a Virtual Instance based on Ubuntu 18.04
-- Configure Routing table
+- Configure the Routing table
 - Associate a public IP address to the Virtual Instance
 
 The terraform scripts will also create and configure a GSLB service in the AVI controller in order to access to the multicloud web application.
