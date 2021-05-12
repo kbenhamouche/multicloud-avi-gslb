@@ -61,7 +61,7 @@ NOTES:
 To setup the demo, execute the "tfapply.sh" script.
 All public IP addresses will be provided.
 
-By default, the FQDN "http://multicloud.ovn.ca/" will be created to access to the multicloud web application.
+By default, the FQDN "http://multicloud.ovn.ca" will be created to access to the multicloud web application.
 
 # Destroy
 
