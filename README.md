@@ -1,4 +1,4 @@
-# Multi-cloud Solution with AVI GSLB Services
+# Multi-Cloud Solution with AVI GSLB Services
 
 This example is for DEMO purpose ONLY.
 
