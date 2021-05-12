@@ -24,6 +24,7 @@ NOTES:
 
 # Requirements
 	
+On AWS: ![here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
 1- Create a Service Account on AWS, Azure and GCP:
 
 	On AWS: ![here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html)
