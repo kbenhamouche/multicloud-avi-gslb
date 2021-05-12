@@ -59,7 +59,9 @@ NOTES:
 # Execution
 
 To setup the demo, execute the "tfapply.sh" script.
-All public IP addresses will be provided.
+All public IP addresses and the AWS instance's private key will be provided as shown below:
+
+![outputs](outputs.png)
 
 By default, the FQDN "http://multicloud.ovn.ca", handled by AVI GSLB, will be created to access to the multicloud web application.
 
