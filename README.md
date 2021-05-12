@@ -20,7 +20,7 @@ NOTES:
 
 # Topology
 
-![Topology](vcn-demo.png)
+![Topology](multicloud-gslb.png)
 
 # Requirements
 	
